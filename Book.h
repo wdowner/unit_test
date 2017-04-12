@@ -1,3 +1,6 @@
+#ifndef _BOOK_H_
+#define _BOOK_H_
+
 #include "string.h"
 
 class Book
@@ -10,3 +13,5 @@ public:
 
 	char title[255];
 };
+
+#endif
