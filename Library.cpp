@@ -4,9 +4,12 @@ Library::Library() {}
 
 Library::~Library() {}
 
-void Library::addBook( Book* book ) {}
+void Library::addBook( Book* book ) 
+{
+	books = book;
+}
 
 Book* Library::getBook( const char *title )
 {
-	return new Book("");
+	return books;
 }

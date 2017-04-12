@@ -11,6 +11,9 @@ public:
 
 	void addBook( Book *book );
 	Book* getBook( const char *title );
+
+private:
+	Book* books;
 };
 
 #endif
